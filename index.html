@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>АН «Квадрат» — агентство недвижимости в Оренбурге</title>
+  <meta name="description" content="Подбор квартиры под ключ, продажа недвижимости, ипотека в 74 банках-партнёрах и юридическое сопровождение в Оренбурге. 10 000+ сделок, 9 лет на рынке.">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=3">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute">
+  <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<!-- Шапка -->
+<header class="header">
+  <div class="wrap">
+    <div class="header__bar">
+      <a href="#top" class="logo" aria-label="Квадрат — на главную">
+        <img src="img/logo-mark.png" alt="">
+        <span class="logo__text"><span class="logo__name">КВАДРАТ</span><span class="logo__sub">агентство недвижимости</span></span>
+      </a>
+      <nav class="nav">
+        <a href="#about">О компании</a>
+        <a href="#terms">Условия</a>
+        <a href="#mortgage">Ипотека</a>
+        <a href="#sell">Продажа</a>
+        <a href="#objects">Объекты</a>
+        <a href="#team">Команда</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <a href="tel:+79120972577" class="header__phone">8 (912) 097-25-77<small>Пн–Пт 9–19 · Сб–Вс 10–15</small></a>
+      <button class="btn btn--accent btn--sm" data-modal>Связаться<span class="btn__arrow"><svg width="18" height="18"><use href="#arrow"/></svg></span></button>
+      <button class="burger" aria-label="Открыть меню"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="burger mobile-menu__close" aria-label="Закрыть меню" style="display:grid">✕</button>
+  <a href="#about">О компании</a>
+  <a href="#terms">Условия</a>
+  <a href="#mortgage">Ипотека</a>
+  <a href="#sell">Продажа</a>
+  <a href="#objects">Объекты</a>
+  <a href="#team">Команда</a>
+  <a href="#reviews">Отзывы</a>
+  <a href="#contacts">Контакты</a>
+  <a href="tel:+79120972577" class="btn btn--accent">8 (912) 097-25-77<span class="btn__arrow"><svg width="18" height="18"><use href="#arrow"/></svg></span></a>
+</div>
+
+<main id="top">
+
+  <!-- Первый экран -->
+  <section class="hero">
+    <div class="wrap">
+      <h1 class="h-display hero__title"><span class="accent">Квадрат</span>Недвижимость</h1>
+      <p class="hero__text">За 9 лет провели более 10 000 сделок в Оренбурге: подбираем квартиры, продаём недвижимость и получаем ипотеку под ключ</p>
+      <button class="btn btn--accent" data-modal>Подобрать квартиру<span class="btn__arrow"><svg width="18" height="18"><use href="#arrow"/></svg></span></button>
+      <div class="hero__gallery">
+        <figure><img src="img/zk-belyj-ostrov.jpg" alt="ЖК «Белый остров»"></figure>
+        <figure><img src="img/hero-1.jpg" alt="Новостройка в Оренбурге"></figure>
+        <figure><img src="img/zk-evropa-aziya.webp" alt="ЖК «Европа Азия»"><figcaption>ЖК «Европа Азия»</figcaption></figure>
+        <figure><img src="img/zk-sosedi.jpg" alt="ЖК «Соседи»"></figure>
+        <figure><img src="img/zk-rostoshi.webp" alt="ЖК «Ростоши Премьер»"></figure>
+        <div class="badge-circle"><b>10 000+</b><span>сделок<br>проведено</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- О компании -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-head__side reveal">
+          <span class="label">О компании</span>
+          <p class="small">Помогаем оренбуржцам решить квартирный вопрос спокойно, честно и без лишних переплат.</p>
+        </div>
+        <h2 class="h1 reveal">Ваша новая квартира — работа экспертов <span class="accent">«Квадрата»</span></h2>
+      </div>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card__img"><img src="img/apt-1.jpg" alt="Интерьер квартиры"></div>
+          <h3 class="h3">Лучшая квартира за ваши деньги</h3>
+          <p class="small">Подберём вариант с оптимальным соотношением цены, района и планировки. Покажем эксклюзивные квартиры и дома, которых нет на Авито.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__img"><img src="img/hero-2.jpg" alt="Строящийся жилой комплекс"></div>
+          <h3 class="h3">Подбор новостройки бесплатно</h3>
+          <p class="small">Работаем напрямую с застройщиками Оренбурга, поэтому помощь в поиске для покупателя ничего не стоит.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__img"><img src="img/family.jpg" alt="Семья с детьми"></div>
+          <h3 class="h3">Ипотека от 3% в 74 банках</h3>
+          <p class="small">Бесплатно получим ипотечное решение: без первого взноса, с материнским капиталом, военная ипотека и господдержка.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__img"><img src="img/keys.jpg" alt="Ключи от квартиры"></div>
+          <h3 class="h3">Обменяем старую квартиру на новую</h3>
+          <p class="small">Trade-in: продадим вашу квартиру и зачтём её стоимость в покупку новой. Остаток можно взять в ипотеку.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__img"><img src="img/docs.jpg" alt="Проверка документов"></div>
+          <h3 class="h3">Сопровождаем до ключей</h3>
+          <p class="small">Юристы проверяют историю объекта и права продавца, составляют договор и контролируют регистрацию. Сделка застрахована на 3 млн ₽.</p>
+        </article>
+        <aside class="card-cta reveal">
+          <div>
+            <h3 class="h2">Оставьте заявку на подбор квартиры</h3>
+            <p style="margin-top:16px">Предложим варианты, которые есть на рынке уже сегодня, — от застройщиков и из нашей базы.</p>
+          </div>
+          <div class="chips"><span class="chip">Новостройки</span><span class="chip">Вторичка</span><span class="chip">Дома и ИЖС</span><span class="chip">Коммерция</span></div>
+          <button class="btn btn--light" data-modal>Подобрать квартиру<span class="btn__arrow"><svg width="18" height="18"><use href="#arrow"/></svg></span></button>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Условия работы -->
+  <section class="section" id="terms" style="padding-top:40px">
+    <div class="wrap">
+      <div class="terms">
+        <div class="quote reveal">
+          <span class="label">Условия работы</span>
+          <p>«Покупка квартиры — слишком важное решение, чтобы доверить его случаю. Мы берём на себя поиск, переговоры и документы, а вы выбираете из лучшего»</p>
+          <div class="person"><img src="img/olesya-syomka.jpg" alt="Олеся Войцеховская"><div><b>Олеся Войцеховская</b><span class="small">Директор агентства</span></div></div>
+        </div>
+        <div class="terms__body">
+          <h2 class="h1 reveal"><span class="accent">0 ₽</span> — стоимость подбора новостройки для вас</h2>
+          <p class="lead reveal">Нашу работу оплачивает застройщик, которого выберете вы. Сравниваем объекты, проводим показы, собираем документы и сопровождаем на сделке. При продаже — 0 ₽ на старте: платите только по факту сделки.</p>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="stat reveal"><b data-count="10000" data-suffix="+">10 000+</b><span>сделок с недвижимостью проведено</span></div>
+        <div class="stat reveal"><b>9/10</b><span>ипотек одобряют нашим клиентам</span></div>
+        <div class="stat reveal"><b>9 лет</b><span>в сфере недвижимости Оренбурга</span></div>
+        <div class="stat reveal"><b>44 дня</b><span>средний срок продажи наших объектов</span></div>
+      </div>
+
+      <div class="media">
+        <div class="media__card reveal">
+          <div>
+            <span class="label">Соцсети</span>
+            <h3 class="h2" style="margin-top:22px"><span class="accent">1,5 млн</span> просмотров за месяц</h3>
+            <p class="small" style="margin-top:18px;max-width:460px">Снимаем ролики об истории Оренбурга и о том, как меняется наш город, рассказываем о новостройках, ипотеке и рынке. Подписывайтесь — будьте в курсе выгодных предложений.</p>
+          </div>
+          <div class="media__links">
+            <a class="media__link" href="https://vk.com/agentstvo_nedvizhimosty_kvadrat" target="_blank" rel="noopener"><b>ВКонтакте</b>Обзоры и новости</a>
+            <a class="media__link" href="https://t.me/Kvadrat_orenburg_bot" target="_blank" rel="noopener"><b>Telegram-бот</b>Подбор квартиры</a>
+            <a class="media__link" href="https://ok.ru/group/57754458521726" target="_blank" rel="noopener"><b>Одноклассники</b>Объекты и акции</a>
+          </div>
+        </div>
+        <div class="media__photos">
+          <figure class="reveal"><img src="img/igor-syomka.jpg" alt="Игорь на съёмке"><figcaption><b>Игорь</b>Директор по развитию</figcaption></figure>
+          <figure class="reveal"><img src="img/olesya-syomka.jpg" alt="Олеся на съёмке"><figcaption><b>Олеся Войцеховская</b>Директор агентства</figcaption></figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Манифест -->
+  <section class="section on-dark manifest">
+    <div class="wrap">
+      <div style="text-align:center"><span class="label">Наши принципы</span></div>
+      <h2 class="h1 manifest__title reveal">Берём на себя ответственность за каждую сделку</h2>
+      <div class="manifest__grid">
+        <div class="m-card reveal"><span class="m-card__num">01</span><div><h3 class="h3">Цену утверждаете вы</h3><p class="small" style="margin-top:12px">Продаём по рынку, а не дешевле. Узнаете максимальную цену и минимальный срок продажи.</p></div></div>
+        <div class="m-photo reveal"><img src="img/handshake.jpg" alt="Рукопожатие на сделке"></div>
+        <div class="m-card reveal"><span class="m-card__num">02</span><div><h3 class="h3">Платите за результат</h3><p class="small" style="margin-top:12px">За подбор — только если найдём объект, который подходит на 100%. За продажу — по факту сделки.</p></div></div>
+        <div class="m-photo reveal"><img src="img/meeting.jpg" alt="Консультация с клиентами"></div>
+        <div class="m-photo reveal"><img src="img/deal.jpg" alt="Подписание договора"></div>
+        <div class="m-card reveal"><span class="m-card__num">03</span><div><h3 class="h3">Сделка застрахована на 3 млн ₽</h3><p class="small" style="margin-top:12px">Юристы проверяют историю объекта, права продавца и тексты договоров до того, как вы внесёте деньги.</p></div></div>
+        <div class="m-photo reveal"><img src="img/legal.jpg" alt="Работа с документами"></div>
+        <div class="m-card reveal"><span class="m-card__num">04</span><div><h3 class="h3">Торгуемся за вас</h3><p class="small" style="margin-top:12px">Гарантированный профессиональный торг: экономим от 50 000 до 300 000 ₽ на покупке.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ипотека -->
+  <section class="section" id="mortgage">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-head__side reveal"><span class="label">Ипотека</span></div>
+        <h2 class="h1 reveal">Ипотека в 74 банках — <span class="accent">одобрим быстрее и выгоднее</span></h2>
+      </div>
+      <div class="mortgage-top">
+        <div class="m-quote reveal">
+          <p>«9 из 10 ипотек одобряют нашим клиентам. Подаём заявку сразу в несколько банков, подбираем льготную программу и снижаем ставку — бесплатно для вас»</p>
+          <small>Ипотечный отдел АН «Квадрат»</small>
+        </div>
+        <div class="m-offer reveal">
+          <div>
+            <h3 class="h3">Рефинансирование ипотеки со скидкой 50%</h3>
+            <p style="margin-top:14px">Акция месяца: снизим платёж по действующему кредиту, экономия — с первого месяца</p>
+          </div>
+          <button class="btn btn--light" data-modal>Снизить платёж<span class="btn__arrow"><svg width="18" height="18"><use href="#arrow"/></svg></span></button>
+        </div>
+      </div>
+      <div class="features">
+        <div class="feature reveal">
+          <div class="feature__icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg></div>
+          <h3 class="h3">Без первого взноса</h3>
+          <p class="small">Подберём программу: залог имеющегося имущества или поручительство</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature__icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="3"/><circle cx="17" cy="9" r="2.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15 20c0-2 .8-3.6 2-4.5 1.6.3 4 1.7 4 4.5"/></svg></div>
+          <h3 class="h3">Материнский капитал</h3>
+          <p class="small">Квартиры под маткапитал в новостройках и на вторичном рынке</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature__icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h3 class="h3">Военная ипотека</h3>
+          <p class="small">Сопровождаем оформление по установленной законом процедуре — от заявки до сделки</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature__icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 10h18"/><path d="M7 15h4"/></svg></div>
+          <h3 class="h3">Налоговый вычет</h3>
+          <p class="small">Вернём проценты с ипотеки: в среднем экономим клиентам 250 000 ₽ с каждой сделки</p>
+        </div>
+      </div>
+
+      <div class="lead-box reveal">
+        <form class="lead-box__form lead-form">
+          <h3 class="h2">Узнайте, какую сумму вам одобрит банк</h3>
+          <p class="small">Проверим ваши шансы в 74 банках-партнёрах и назовём сумму ипотеки — до того, как вы начнёте выбирать квартиру.</p>
+          <input class="field" type="text" name="name" placeholder="Ваше имя" required>
+          <input class="field" type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+          <button class="btn btn--light" type="submit">Узнать сумму<span class="btn__arrow"><svg width="18" height="18"><use href="#arrow"/></svg></span></button>
+          <p class="consent">Нажимая на кнопку, вы даёте согласие на <a href="https://novostrojki-orenburga.ru/node/2124" target="_blank" rel="noopener">обработку персональных данных</a></p>
+        </form>
+        <div class="banks">
+          <div>Новостройки</div><div>Вторичное жильё</div><div>Семейная ипотека</div><div>Дома и ИЖС</div>
+          <div>Военная ипотека</div><div>Без взноса</div><div>Маткапитал</div><div>Рефинанси­рование</div>
+          <div>Господдержка</div><div>Коммерция</div><div>Жилищные сертификаты</div><div>Trade-in</div>
+          <div class="badge-circle"><b>74</b><span>банка-партнёра<br>по России</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Продажа -->
+  <section class="section" id="sell" style="padding-top:20px">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-head__side reveal"><span class="label">Вторичная недвижимость</span><p class="small">750+ уникальных объектов в нашей базе вторичного жилья</p></div>
+        <h2 class="h1 reveal">Продадим вашу квартиру <span class="accent">выгодно и безопасно</span></h2>
+      </div>
+      <div class="sell">
+        <div class="sell__photo reveal">
+          <img src="img/owners.jpg" alt="Довольные владельцы">
+          <div class="badge-circle"><b>44</b><span>дня — средний<br>срок продажи</span></div>
+        </div>
+        <div class="sell__list">
+          <div class="sell-item reveal"><span class="sell-item__n">1</span><h3 class="h3">Оценим за 50 минут</h3><p class="small">Узнаете максимальную цену и минимальный срок продажи квартиры, дома или участка</p></div>
+          <div class="sell-item reveal"><span class="sell-item__n">2</span><h3 class="h3">Найдём покупателей</h3><p class="small">Используем 50 инструментов для продажи и проверяем дееспособность сторон</p></div>
+          <div class="sell-item reveal"><span class="sell-item__n">3</span><h3 class="h3">Проведём сделку с юристом</h3><p class="small">Договор без спорных мест, контроль сроков, расчётов и регистрации права</p></div>
+          <div class="sell-item sell-item--accent reveal">
+            <div><h3 class="h3" style="color:#fff">0 ₽ на старте</h3><p class="small" style="margin-top:12px">Платите только по факту сделки</p></div>
+            <button class="btn btn--accent btn--sm" data-modal>Оценить квартиру<span class="btn__arrow"><svg width="18" height="18"><use href="#arrow"/></svg></span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Объекты -->
+  <section class="section" id="objects" style="padding-top:20px">
+    <div class="wrap">
+      <div class="objects__head">
+        <div><span class="label reveal">Каталог</span><h2 class="h1 reveal" style="margin-top:22px">Объекты из нашей базы</h2></div>
+        <div class="slider-nav">
+          <button data-slide="-1" aria-label="Назад"><svg width="20" height="20" style="transform:scaleX(-1)"><use href="#arrow"/></svg></button>
+          <button data-slide="1" aria-label="Вперёд"><svg width="20" height="20"><use href="#arrow"/></svg></button>
+        </div>
+      </div>
+      <div class="objects__track" id="objectsTrack">
+        <article class="obj"><div class="obj__img"><img src="img/obj/gornaya-7a.jpg" alt="" loading="lazy"></div><div class="obj__body"><div class="obj__title">2-комнатная, 75,2 м²</div><p class="small">Оренбургский р-н, Горная ул., 7а · 4/4 эт. · кирпич</p><div class="obj__price">9 900 000 ₽<a href="https://novostrojki-orenburga.ru/property/prodaetsya-2-kom-kvartira-prigorodnyy-p-orenburgskiy-gornaya-ul-7a" target="_blank" rel="noopener">Подробнее</a></div></div></article>
+        <article class="obj"><div class="obj__img"><img src="img/obj/frontovikov-6.jpg" alt="" loading="lazy"></div><div class="obj__body"><div class="obj__title">1-комнатная, 44,0 м²</div><p class="small">Фронтовиков ул., 6 · 9/19 эт. · панель</p><div class="obj__price">5 180 000 ₽<a href="https://novostrojki-orenburga.ru/property/prodaetsya-1-kom-kvartira-orenburg-g-frontovikov-ul-6" target="_blank" rel="noopener">Подробнее</a></div></div></article>
+        <article class="obj"><div class="obj__img"><img src="img/obj/dzerzhinskogo-27.jpg" alt="" loading="lazy"></div><div class="obj__body"><div class="obj__title">3-комнатная, 56,1 м²</div><p class="small">Дзержинского пр-т, 27, к. 2 · 3/9 эт. · кирпич</p><div class="obj__price">6 649 999 ₽<a href="https://novostrojki-orenburga.ru/property/prodaetsya-3-kom-kvartira-orenburg-g-dzerzhinskogo-prospekt-27-k-2" target="_blank" rel="noopener">Подробнее</a></div></div></article>
+        <article class="obj"><div class="obj__img"><img src="img/obj/poligonnaya-3.jpg" alt="" loading="lazy"></div><div class="obj__body"><div class="obj__title">2-комнатная, 50,0 м²</div><p class="small">Полигонная ул., 3 · 4/6 эт. · кирпич</p><div class="obj__price">5 990 000 ₽<a href="https://novostrojki-orenburga.ru/property/prodaetsya-2-kom-kvartira-orenburg-g-poligonnaya-ul-3" target="_blank" rel="noopener">Подробнее</a></div></div></article>
+        <article class="obj"><div class="obj__img"><img src="img/obj/proletarskaya-288b.jpg" alt="" loading="lazy"></div><div class="obj__body"><div class="obj__title">1-комнатная, 46,2 м²</div><p class="small">Пролетарская ул., 288, к. Б · 12/18 эт.</p><div class="obj__price">6 400 000 ₽<a href="https://novostrojki-orenburga.ru/property/prodaetsya-1-kom-kvartira-orenburg-g-proletarskaya-ul-288-k-b" target="_blank" rel="noopener">Подробнее</a></div></div></article>
+        <article class="obj"><div class="obj__img"><img src="img/obj/novaya-54-1.jpg" alt="" loading="lazy"></div><div class="obj__body"><div class="obj__title">3-комнатная, 87,8 м²</div><p class="small">пос. Ростоши, Новая ул., 54/1 · 3/4 эт. · кирпич</p><div class="obj__price">16 990 000 ₽<a href="https://novostrojki-orenburga.ru/property/prodaetsya-3-kom-kvartira-poselok-rostoshi-mkr-novaya-ul-541" target="_blank" rel="noopener">Подробнее</a></div></div></article>
+        <article class="obj"><div class="obj__img"><img src="img/obj/karagandinskaya-88.jpg" alt="" loading="lazy"></div><div class="obj__body"><div class="obj__title">1-комнатная, 30,0 м²</div><p class="small">Карагандинская ул., 88 · 3/5 эт. · панель</p><div class="obj__price">3 200 000 ₽<a href="https://novostrojki-orenburga.ru/property/prodaetsya-1-kom-kvartira-orenburg-g-karagandinskaya-ul-88" target="_blank" rel="noopener">Подробнее</a></div></div></article>
+        <article class="obj"><div class="obj__img"><img src="img/obj/teatralnaya-7.jpg" alt="" loading="lazy"></div><div class="obj__body"><div class="obj__title">2-комнатная, 44,8 м²</div><p class="small">Театральная ул., 7 · 5/5 эт. · панель</p><div class="obj__price">3 999 999 ₽<a href="https://novostrojki-orenburga.ru/property/prodaetsya-2-kom-kvartira-orenburg-g-teatralnaya-ul-7" target="_blank" rel="noopener">Подробнее</a></div></div></article>
+        <article class="obj"><div class="obj__img"><img src="img/obj/hmelnickogo-1b.jpg" alt="" loading="lazy"></div><div class="obj__body"><div class="obj__title">4-комнатная, 60,7 м²</div><p class="small">Б. Хмельницкого ул., 1Б · 4/5 эт. · кирпич</p><div class="obj__price">4 799 900 ₽<a href="https://novostrojki-orenburga.ru/property/prodaetsya-4-kom-kvartira-orenburg-g-b-hmelnickogo-ul-1b" target="_blank" rel="noopener">Подробнее</a></div></div></article>
+      </div>
+      <div style="margin-top:32px"><button class="btn btn--accent" data-modal>Подобрать по моему запросу<span class="btn__arrow"><svg width="18" height="18"><use href="#arrow"/></svg></span></button></div>
+    </div>
+  </section>
+
+  <!-- Команда и новости -->
+  <section class="section" id="team" style="padding-top:40px">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-head__side reveal"><span class="label">Команда</span><p class="small">Показываем компанию изнутри: чем живёт команда, куда растём и что у нас нового.</p></div>
+        <h2 class="h1 reveal">Команда экспертов <span class="accent">«Квадрата»</span> с опытом и знанием Оренбурга</h2>
+      </div>
+      <div class="team">
+        <div class="team__big reveal"><img src="img/team.jpg" alt="Команда агентства «Квадрат»"></div>
+        <div class="member reveal"><div class="member__img"><img src="img/olesya-syomka.jpg" alt="Олеся Войцеховская"></div><b>Олеся Войцеховская</b><span class="small">Директор агентства</span></div>
+        <div class="member reveal"><div class="member__img"><img src="img/igor-syomka.jpg" alt="Игорь"></div><b>Игорь</b><span class="small">Директор по развитию</span></div>
+      </div>
+      <div class="news">
+        <article class="news-card reveal"><div class="news-card__img"><img src="img/scena.jpg" alt="" loading="lazy"></div><span class="tag">Октябрь</span><b>На одной сцене с Игорем Манном</b><p class="small">Главный маркетолог России дал советы по развитию компании и сервиса для клиентов.</p></article>
+        <article class="news-card reveal"><div class="news-card__img"><img src="img/futbol.jpg" alt="" loading="lazy"></div><span class="tag">Спорт</span><b>Серебро первой лиги</b><p class="small">Футбольная команда «Квадрат» — серебряный призёр первой лиги Оренбурга.</p></article>
+        <article class="news-card reveal"><div class="news-card__img"><img src="img/splav.jpg" alt="" loading="lazy"></div><span class="tag">Сентябрь</span><b>Путешествие всей командой</b><p class="small">Вместе отправились в путешествие по городам России.</p></article>
+        <article class="news-card reveal"><div class="news-card__img"><img src="img/den-rozhdeniya.jpg" alt="" loading="lazy"></div><span class="tag">Сентябрь</span><b>День рождения Игоря</b><p class="small">Отпраздновали день рождения нашего директора по развитию.</p></article>
+      </div>
+      <div class="career reveal">
+        <div><h3 class="h2">Развиваем команду и каждого сотрудника</h3><p class="small" style="margin-top:14px;max-width:640px">Ищем риелторов и ипотечных брокеров, которые хотят расти вместе с нами. Обучаем, даём клиентов и поддержку на каждой сделке.</p></div>
+        <button class="btn btn--accent" data-modal>Карьера в «Квадрате»<span class="btn__arrow"><svg width="18" height="18"><use href="#arrow"/></svg></span></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Отзывы -->
+  <section class="section" id="reviews" style="padding-top:20px">
+    <div class="wrap">
+      <div class="reviews">
+        <div class="reveal">
+          <span class="label">Отзывы</span>
+          <h2 class="h2" style="margin-top:22px">Отзывы наших клиентов</h2>
+          <div class="rating"><b>5,0</b><span>★★★★★</span></div>
+          <p style="color:rgba(255,255,255,.75)">рейтинг на Яндекс Картах</p>
+          <div class="reviews__facts">
+            <div><b>1600+</b>отзывов на Яндекс Картах и 2ГИС</div>
+            <div><b>98%</b>положительных оценок персонала</div>
+            <div><b>2026</b>награда «Хорошее место» от Яндекса</div>
+            <div><b>10 000+</b>довольных клиентов</div>
+          </div>
+          <div class="reviews__actions">
+            <a class="btn btn--light btn--sm" href="https://yandex.ru/maps/org/kvadrat/241011064676/reviews/?add-review=true" target="_blank" rel="noopener">Оставить отзыв<span class="btn__arrow"><svg width="18" height="18"><use href="#arrow"/></svg></span></a>
+            <a class="btn btn--ghost btn--sm" href="https://yandex.ru/maps/org/kvadrat/241011064676/reviews/" target="_blank" rel="noopener">Все отзывы<span class="btn__arrow"><svg width="18" height="18"><use href="#arrow"/></svg></span></a>
+          </div>
+        </div>
+        <div class="reviews__widget reveal">
+          <iframe src="https://yandex.ru/maps-reviews-widget/241011064676?comments" title="Отзывы о «Квадрате» на Яндекс Картах" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ЖК-партнёры -->
+  <section class="section">
+    <div class="wrap">
+      <div class="partners-head">
+        <div class="reveal"><span class="label">Партнёры</span><h2 class="h1" style="margin-top:22px">Новостройки напрямую от застройщиков</h2><p class="small" style="margin-top:18px;max-width:520px">Бронируйте квартиры в жилых комплексах Оренбурга без переплат: цены как в отделе продаж, а подбор и сопровождение — бесплатно.</p></div>
+        <div class="stat reveal"><b data-count="32">32</b><span>жилых комплекса в Оренбурге</span></div>
+        <div class="stat reveal"><b data-count="74">74</b><span>банка-партнёра для ипотеки</span></div>
+      </div>
+      <div class="zk">
+        <figure class="reveal"><img src="img/zk-belyj-ostrov.jpg" alt="ЖК «Белый остров»" loading="lazy"><figcaption>ЖК «Белый остров»<span>Новостройка · Оренбург</span></figcaption></figure>
+        <figure class="reveal"><img src="img/zk-evropa-aziya.webp" alt="ЖК «Европа Азия»" loading="lazy"><figcaption>ЖК «Европа Азия»<span>Новостройка · Оренбург</span></figcaption></figure>
+        <figure class="reveal"><img src="img/zk-rostoshi.webp" alt="ЖК «Ростоши Премьер»" loading="lazy"><figcaption>ЖК «Ростоши Премьер»<span>Новостройка · пос. Ростоши</span></figcaption></figure>
+        <figure class="reveal"><img src="img/zk-sosedi.jpg" alt="ЖК «Соседи»" loading="lazy"><figcaption>ЖК «Соседи»<span>Новостройка · Оренбург</span></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Вопросы -->
+  <section class="section" style="padding-top:20px">
+    <div class="wrap faq">
+      <div class="section-head__side reveal"><span class="label">Вопросы</span><h2 class="h2">Ответы на частые вопросы</h2></div>
+      <div class="faq__list reveal">
+        <details><summary>Подбор новостройки правда бесплатный?</summary><p>Да. Мы работаем напрямую с застройщиками Оренбурга, поэтому помощь в поиске недвижимости для покупателя предоставляется бесплатно.</p></details>
+        <details><summary>Нужно ли приезжать в офис?</summary><p>Не обязательно. Можно позвонить, написать в WhatsApp или Telegram либо оставить заявку на сайте. Офис находится в БЦ «Евразия» на 1 этаже — приходите, если удобнее обсудить всё лично.</p></details>
+        <details><summary>У меня нет первоначального взноса. Это проблема?</summary><p>Ипотека без взноса возможна, но условия банков строже. Проконсультируем по программам, материнскому капиталу и военной ипотеке и подберём подходящий вариант.</p></details>
+        <details><summary>Можно ли обменять свою квартиру на новую?</summary><p>Да, по программе Trade-in: оценим и продадим вашу квартиру, подберём новую. Стоимость старой идёт в зачёт покупки, оставшуюся часть можно взять в ипотеку.</p></details>
+        <details><summary>Я живу в другом городе. Вы поможете?</summary><p>Да. Организуем подбор, документы и сделку дистанционно — будем на связи на каждом этапе.</p></details>
+        <details><summary>Что, если подходящего объекта нет в каталоге?</summary><p>Оставьте заявку — специалисты подберут варианты по индивидуальному запросу в кратчайшие сроки.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Финальный призыв -->
+  <section id="contacts" style="padding-top:20px">
+    <div class="wrap">
+      <div class="final">
+        <div class="final__top">
+          <h2 class="h1 reveal">Подберём новую квартиру вместе?</h2>
+          <p class="reveal">Узнайте, какие предложения подходят именно вам. Получите персональную консультацию и подборку квартир в Оренбурге. Перезвоним в ближайшее время.</p>
+        </div>
+        <form class="final__form lead-form reveal">
+          <input class="field" type="text" name="name" placeholder="Ваше имя" required>
+          <input class="field" type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+          <button class="btn btn--light" type="submit">Подобрать квартиру<span class="btn__arrow"><svg width="18" height="18"><use href="#arrow"/></svg></span></button>
+          <p class="consent">Нажимая на кнопку, вы даёте согласие на <a href="https://novostrojki-orenburga.ru/node/2124" target="_blank" rel="noopener">обработку персональных данных</a></p>
+        </form>
+        <div class="hero__gallery">
+          <figure><img src="img/apt-3.jpg" alt="" loading="lazy"></figure>
+          <figure><img src="img/hero-3.jpg" alt="" loading="lazy"></figure>
+          <figure><img src="img/sunset.jpg" alt="" loading="lazy"></figure>
+          <figure><img src="img/kitchen.jpg" alt="" loading="lazy"></figure>
+          <figure><img src="img/living.jpg" alt="" loading="lazy"></figure>
+          <div class="badge-circle"><b>750+</b><span>объектов<br>в базе</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Подвал -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <a href="#top" class="logo"><img src="img/logo-mark.png" alt=""><span class="logo__text"><span class="logo__name">КВАДРАТ</span><span class="logo__sub">агентство недвижимости</span></span></a>
+        <p class="footer__info">Информация на сайте не является публичной офертой. Условия ипотеки зависят от банка и программы.<br><br>ООО «Квадрат» · Оренбург</p>
+        <div class="footer__social">
+          <a href="https://wa.me/79120972577" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://t.me/+79120972577" target="_blank" rel="noopener">Telegram</a>
+          <a href="https://vk.com/agentstvo_nedvizhimosty_kvadrat" target="_blank" rel="noopener">VK</a>
+          <a href="https://ok.ru/group/57754458521726" target="_blank" rel="noopener">OK</a>
+        </div>
+      </div>
+      <div>
+        <h4>Агентство</h4>
+        <ul><li><a href="#about">О компании</a></li><li><a href="#terms">Условия работы</a></li><li><a href="#team">Команда</a></li><li><a href="#reviews">Отзывы</a></li><li><a href="#objects">Объекты</a></li></ul>
+      </div>
+      <div>
+        <h4>Услуги</h4>
+        <ul><li><a href="#about">Подбор под ключ</a></li><li><a href="#mortgage">Ипотека</a></li><li><a href="#sell">Продажа недвижимости</a></li><li><a href="#about">Юридическое сопровождение</a></li><li><a href="#about">Коммерческая недвижимость</a></li></ul>
+      </div>
+      <div>
+        <h4>Контакты</h4>
+        <ul>
+          <li>г. Оренбург, пр-т Гагарина, 15/1,<br>БЦ «Евразия», 1 этаж</li>
+          <li><a href="tel:+79120972577">8 (912) 097-25-77</a></li>
+          <li><a href="tel:+79228911100">8 (922) 891-11-00</a> · WhatsApp, Telegram</li>
+          <li><a href="mailto:korobko56@inbox.ru">korobko56@inbox.ru</a></li>
+          <li>Пн–Пт 9:00–19:00<br>Сб–Вс 10:00–15:00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 ООО «Квадрат». Все права защищены.</span>
+      <a href="https://novostrojki-orenburga.ru/node/2124" target="_blank" rel="noopener">Политика обработки персональных данных</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Окно заявки -->
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal__box" role="dialog" aria-modal="true" aria-label="Заявка">
+    <button class="modal__close" aria-label="Закрыть">×</button>
+    <form class="lead-form modal__form">
+      <h3 class="h3">Оставьте заявку</h3>
+      <p class="small" style="color:rgba(255,255,255,.72);margin-bottom:8px">Свяжемся и проконсультируем вас по недвижимости в Оренбурге</p>
+      <input class="field" type="text" name="name" placeholder="Ваше имя" required>
+      <input class="field" type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+      <button class="btn btn--light" type="submit">Получить консультацию<span class="btn__arrow"><svg width="18" height="18"><use href="#arrow"/></svg></span></button>
+      <p class="consent">Нажимая на кнопку, вы даёте согласие на <a href="https://novostrojki-orenburga.ru/node/2124" target="_blank" rel="noopener">обработку персональных данных</a></p>
+    </form>
+    <div class="modal__ok"><h3 class="h3">Спасибо за заявку!</h3><p style="margin-top:10px;color:rgba(255,255,255,.75)">Перезвоним в ближайшее время.</p></div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
